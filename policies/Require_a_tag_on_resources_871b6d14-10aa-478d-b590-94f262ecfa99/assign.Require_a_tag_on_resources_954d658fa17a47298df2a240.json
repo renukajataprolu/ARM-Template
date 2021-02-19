@@ -1,0 +1,31 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Require a tag on resources",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/871b6d14-10aa-478d-b590-94f262ecfa99",
+  "scope": "/subscriptions/39e0c96b-e4a6-4cb1-90c7-57c967e8a1bb",
+  "notScopes": [
+   "/subscriptions/39e0c96b-e4a6-4cb1-90c7-57c967e8a1bb/resourceGroups/testalert"
+  ],
+  "parameters": {
+   "tagName": {
+    "value": "environment"
+   }
+  },
+  "metadata": {
+   "assignedBy": "Renuka Jataprolu",
+   "parameterScopes": {},
+   "createdBy": "8f08ab7a-accc-4202-9445-1b67948d1b09",
+   "createdOn": "2021-02-19T09:17:04.1265645Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/39e0c96b-e4a6-4cb1-90c7-57c967e8a1bb/providers/Microsoft.Authorization/policyAssignments/954d658fa17a47298df2a240",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "954d658fa17a47298df2a240"
+}
